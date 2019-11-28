@@ -73,6 +73,8 @@
 
 [Visual Odometry: Part II - Matching, robustness, optimization, and applications](http://rpg.ifi.uzh.ch/docs/VO_Part_II_Scaramuzza.pdf), F. Fraundorfer and D. Scaramuzza, IEEE Robotics and Automation Magazine, Volume 19, issue 2, 2012
 
+[Large-scale, real-time visual-inertial localization revisited](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/70c308dec1b9849921e969b1f36afd65c5884e29.pdf) S. Lynen, B. Zeisl, D. Aiger, M. Bosse, J. Hesch, M. Pollefeys, R. Siegwart and T. Sattler. Arxiv 2019.
+
 ## SfM tutorial
 [Open Source Structure-from-Motion](http://www.kitware.com/cvpr2015-tutorial.html). M. Leotta, S. Agarwal, F. Dellaert, P. Moulon, V. Rabaud. CVPR 2015 Tutorial.
 
@@ -86,6 +88,8 @@
 
 ## RGB-D mapping
 [3D indoor scene modeling from RGB-D data: a survey](http://cg.cs.tsinghua.edu.cn/papers/CVMJ-2015-scene-moddeling.pdf) K. Chen, YK. Lai and SM. Hu. Computational Visual Media 2015.
+
+[State of the Art on 3D Reconstruction with RGB-D Cameras](https://web.stanford.edu/~zollhoef/papers/EG18_RecoSTAR/paper.pdf) K. Hildebrandt and C. Theobalt EUROGRAPHICS 2018.
 
 ## All in one tutorial
 
@@ -119,6 +123,8 @@
 
 [Visual SLAM algorithms: a survey from 2010 to 2016](https://link.springer.com/article/10.1186/s41074-017-0027-2), T. Taketomi, H. Uchiyama, S. Ikeda, IPSJ T Comput Vis Appl 2017.
 
+[∇SLAM: Dense SLAM meets Automatic Differentiation](https://arxiv.org/abs/1910.10672). K. M. Jatavallabhula, G. Iyer, L. Paull. arXiv:1910.10672, 2019.
+
 <a name="papers-sfm"></a>
 ## SfM papers
 
@@ -128,7 +134,7 @@
 
 [Towards linear-time incremental structure from motion](http://ccwu.me/vsfm/vsfm.pdf). C. Wu. 3DV 2013.
 
-[Structure-from-Motion Revisited](http://people.inf.ethz.ch/jschoenb/papers/schoenberger2016sfm.pdf). Schöenberger, Frahm. CVPR 2016.
+[Structure-from-Motion Revisited](https://demuc.de/papers/schoenberger2016sfm.pdf). Schöenberger, Frahm. CVPR 2016.
 
 <a name="papers-sfm-global"></a>
 ### Global SfM
@@ -241,6 +247,7 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 
 [Pixelwise View Selection for Unstructured Multi-View Stereo](https://demuc.de/papers/schoenberger2016mvs.pdf). J. L. Schönberger, E. Zheng, M. Pollefeys, J.-M. Frahm. ECCV 2016.
 
+[TAPA-MVS: Textureless-Aware PAtchMatch Multi-View Stereo](https://arxiv.org/pdf/1903.10929.pdf). A. Romanoni, M. Matteucci. ICCV 2019
 
 <a name="papers-mvs-surface"></a>
 ### Surface computation & refinements
@@ -271,6 +278,9 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 
 [Scalable Surface Reconstruction from Point Clouds with Extreme Scale and Density Diversity](https://arxiv.org/abs/1705.00949), C. Mostegel, R. Prettenthaler, F. Fraundorfer and H. Bischof. CVPR 2017.
 
+[Multi-View Stereo with Single-View Semantic Mesh Refinement](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w13/Romanoni_Multi-View_Stereo_with_ICCV_2017_paper.pdf), A. Romanoni, M. Ciccone, F. Visin, M. Matteucci. ICCVW 2017
+
+
 <a name="papers-machine-learning-mvs"></a>
 ### Machine Learning based MVS
 
@@ -293,6 +303,11 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 
 [MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/abs/1804.02505), Y. Yao, Z. Luo, S. Li, T. Fang, L. Quan. ECCV 2018.
 
+[Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency](https://tejaskhot.github.io/unsup_mvs/), T. Khot, S. Agrawal, S. Tulsiani, C. Mertz, S. Lucey, M. Hebert. 2019.
+
+[DPSNET: END-TO-END DEEP PLANE SWEEP STEREO](https://openreview.net/pdf?id=ryeYHi0ctQ), Sunghoon Im, Hae-Gon Jeon, Stephen Lin, In So Kweon. 2019. 
+
+[Point-based Multi-view Stereo Network](http://hansf.me/projects/PMVSNet/), Rui Chen, Songfang Han, Jing Xu, Hao Su. ICCV 2019.
 
 
 <a name="papers-mvs-texturing"></a>
@@ -317,7 +332,7 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 | Project |  Language | License |
 | ---  | --- | --- |
 |[Bundler](https://github.com/snavely/bundler_sfm) | C++ | GNU General Public License - contamination|
-|[Colmap](https://github.com/colmap/colmap) | C++ | GNU General Public License - contamination|
+|[Colmap](https://github.com/colmap/colmap) | C++ | BSD 3-clause license - Permissive |
 |[MAP-Tk](https://github.com/Kitware/maptk) | C++ | BSD 3-Clause license - Permissive |
 |[MicMac](https://github.com/micmacIGN) | C++ | CeCILL-B |
 |[MVE](https://github.com/simonfuhrmann/mve) | C++ | BSD 3-Clause license + parts under the GPL 3 license|
@@ -338,7 +353,7 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 
 | Project |  Language | License |
 | ---  | --- | --- |
-|[Colmap](https://github.com/colmap/colmap) | C++ CUDA |GNU General Public License - contamination|
+|[Colmap](https://github.com/colmap/colmap) | C++ CUDA |BSD 3-clause license - Permissive (Can use CGAL -> GNU General Public License - contamination)|
 [GPUIma + fusibile](https://github.com/kysucix) | C++ CUDA | GNU General Public License - contamination|
 [HPMVS](https://github.com/alexlocher/hpmvs) | C++ | GNU General Public License - contamination|
 |[MICMAC](http://logiciels.ign.fr/?Micmac) | C++ | CeCILL-B |
@@ -401,7 +416,7 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 [3DTK](http://slam6d.sourceforge.net/) | C++ | GPLv3|
 |[CGAL](http://www.cgal.org/) | C++ |  Module dependent GPL/LGPL |
 |[InstantMesh](https://github.com/wjakob/instant-meshes) Mesh Simplification| C++ | BSD License |
-|[GEOGRAM](http://alice.loria.fr/software/geogram/doc/html/index.html/) | C++ | Revised BSD License |
+|[GEOGRAM](http://alice.loria.fr/software/geogram/doc/html/index.html) | C++ | Revised BSD License |
 |[libigl](http://libigl.github.io/libigl/tutorial/tutorial.html)| C++ | MPL2 |
 |[Mesh-processing-library](https://github.com/Microsoft/Mesh-processing-library)| C++ | MIT License |
 |[Open3D](https://github.com/IntelVCL/Open3D/)| C++ | MIT License |
@@ -414,6 +429,8 @@ R. Shah, A. Deshpande, P. J. Narayanan. 3DV 2014. -> [Multistage SFM: A Coarse-t
 # Features
 
 ## Features detection/Description
+
+[From handcrafted to deep local features](https://arxiv.org/abs/1807.10254). G. Csurka, C. R. Dance, M. Humenberger. 2018.
 
 | Project | Detection | Description |
 | ---  | --- | --- |
